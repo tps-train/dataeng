@@ -23,15 +23,46 @@ Diagram of the phases:
 
 ![alt text](images/1_mHQOWVAZKjU82sKZkxaKhQ.png)
 
-## Requirement
+## Requirement 100 Task
 
 Your code should provide a dictionary object of words all lowercase and the number of occurances.
 
 You could apply the map reduce mechanism, or you could consider faster solutions, making use of how a dictionary can be used to perform map reduce data.
 
+**HINT:** Python has list comprehension and functions, *map* and *filter*
+
 **NOTE:** There is a quick way to get the number of occurrences of each word in Python, so you can skip a sort phase, so some experimentation may be required, but we only have a short time.
 
-## Optional 300+ task
+At the end of the script, print out the top 20 words in descending order - with the most used first, and also the 5 least used words with the lowest word last.  If any of the words have the same value of occurrences then list alphabetically.
+
+## 200 Task
+
+The play is split into Acts, example from the file;
+
+```
+ACT 1
+=====
+```
+
+Add to your script the top 5 words per act listing in descending order.
+
+## Optional 300 Task 
+
+Now we want to know which are the most popular 5 words used by each character/part in the play.  The characters are all capital letters, but not always on a line on their own, e.g;
+
+```
+THESEUS
+Now, fair Hippolyta, our nuptial hour
+````
+
+or
+
+```
+THESEUS  Go, Philostrate,
+Stir up the Athenian youth to merriments.
+```
+
+## Optional 300+ Task
 
 Consider how to speed up the processing.
 
